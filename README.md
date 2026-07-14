@@ -13,7 +13,7 @@ Claude Code skills by [Neo Ighodaro](https://neoighodaro.com), distributed as a 
 
 ### package-updates
 
-Two skills that teach agents to update dependencies without walking you into a supply chain attack. The reasoning behind them is written up in [Teaching My AI Agents to Update Dependencies Without Getting Me Owned](https://neoighodaro.com/blog/14-teaching-my-ai-agents-to-update-dependencies-safely/).
+Two skills that teach agents to update dependencies without walking you into a supply chain attack. The reasoning behind them is written up in [Claude Code Skills for safe PHP and JS package updates](https://neoighodaro.com/blog/14-claude-skill-for-safe-dependency-updates-php-javascript-typescript/).
 
 - **`package-update-js`** — for JavaScript/TypeScript projects (bun, pnpm, npm, yarn)
 - **`package-update-php`** — for PHP/Composer projects
