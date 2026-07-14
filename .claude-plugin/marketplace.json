@@ -1,0 +1,19 @@
+{
+  "name": "neoighodaro",
+  "owner": {
+    "name": "Neo Ighodaro",
+    "email": "neo@creativitykills.co",
+    "url": "https://neoighodaro.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills by Neo Ighodaro",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "package-updates",
+      "source": "./package-updates",
+      "description": "Supply-chain-aware dependency updates for JS/TS (Bun) and PHP (Composer): incident research before touching anything, a 7-day release age quarantine, no post-install scripts, exact version pinning, and one-at-a-time updates verified after each."
+    }
+  ]
+}
