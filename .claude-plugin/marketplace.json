@@ -13,7 +13,7 @@
     {
       "name": "package-updates",
       "source": "./package-updates",
-      "description": "Supply-chain-aware dependency updates for JS/TS (Bun) and PHP (Composer): incident research before touching anything, a 7-day release age quarantine, no post-install scripts, exact version pinning, and one-at-a-time updates verified after each."
+      "description": "Supply-chain-aware dependency updates for JS/TS (bun, pnpm, npm, yarn) and PHP (Composer): incident research before touching anything, a 7-day release age quarantine, no post-install scripts, exact version pinning, and one-at-a-time updates verified after each."
     }
   ]
 }

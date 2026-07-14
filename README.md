@@ -27,3 +27,7 @@ They differ in tooling but encode the same rules:
 3. **Scripts don't run until you say so.** Composer updates run with `--no-scripts`; post-install scripts only run after the update has been reviewed. Bun doesn't run lifecycle scripts for arbitrary dependencies by default.
 4. **Pin everything, exactly.** No `^`, no `~`, no ranges. Updates happen through explicit `composer require pkg:x.y.z` / `bun add pkg@x.y.z`, never a blanket update command. (npm and pnpm write a `^` range by default, so `--save-exact` is mandatory there.)
 5. **One at a time, verify after each.** Each package (or ecosystem group) is updated individually, followed by the project's own verification commands. Majors are never applied without explicit approval.
+
+## License
+
+[MIT](LICENSE) © Neo Ighodaro
